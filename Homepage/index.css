@@ -1,0 +1,140 @@
+:root {
+  --primary-color: rgba(248, 247, 218);
+  --secondary-color: #943d24;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 110px;
+  margin-right: -40px;
+}
+.ddpic {
+  margin-top: 100px;
+  margin-left: -30px;
+  box-shadow: 15px 15px 0px 0px rgba(248, 247, 218);
+  border: 2px solid #ffff;
+  border-radius: 7px;
+  max-width: 300px;
+}
+.name {
+  margin-top: 100px;
+  margin-left: -10px;
+}
+a {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  transition: all 200ms ease-in-out;
+  margin-right: -20px;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 21px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+body {
+  background-image: url("../src/Back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+.heading1 {
+  color: #cb9c93;
+}
+
+h2 {
+  color: #cb9c93;
+}
+h3 {
+  color: #cb9c93;
+}
+.navbar {
+  background-color: transparent;
+}
+.logo {
+  max-width: 80px;
+  position: absolute;
+}
+.Port {
+  max-width: 210px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+@media (min-width: 551px) {
+  a {
+    background-color: white;
+    color: var(--secondary-color);
+  }
+
+  .name {
+    margin-left: 100px;
+    margin-right: -250px;
+  }
+}
+@media (max-width: 550px) {
+  .Port {
+    display: none;
+  }
+  .ddpic {
+    max-height: 400px;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  .name {
+    margin-top: 35px;
+    max-width: 350px;
+    margin-left: 10px;
+  }
+
+  .Info {
+    margin-left: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .heading1 {
+    font-size: 40px;
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+  }
+  h3 {
+    font-size: 25px;
+    color: var(--primary-color);
+  }
+}
+a {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+@media (min-width: 800px) {
+  .ddpic {
+    margin-left: -70px;
+  }
+}
+@media (min-width: 768px) {
+  a {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  .name {
+    margin-left: -200px;
+    min-width: 250px;
+  }
+  .Info {
+    margin-right: -55px;
+    margin-left: 20px;
+  }
+}
+@media (min-height: 1000px) {
+  .container {
+    display: grid;
+  }
+}
