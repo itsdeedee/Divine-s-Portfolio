@@ -99,15 +99,12 @@ h3 {
   }
   .heading1 {
     font-size: 40px;
-    color: var(--primary-color);
   }
   h2 {
     font-size: 30px;
-    color: var(--primary-color);
   }
   h3 {
     font-size: 25px;
-    color: var(--primary-color);
   }
 }
 a {
@@ -131,10 +128,5 @@ a {
   .Info {
     margin-right: -55px;
     margin-left: 20px;
-  }
-}
-@media (min-height: 1000px) {
-  .container {
-    display: grid;
   }
 }
