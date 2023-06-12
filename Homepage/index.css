@@ -36,7 +36,7 @@ a:hover {
   box-shadow: 1px 1px 1px 1px black;
 }
 body {
-  background-image: url("../src/Back.png");
+  background-image: url("src/Back.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
