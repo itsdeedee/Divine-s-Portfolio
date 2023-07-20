@@ -291,3 +291,16 @@ hr {
 .social > a:hover {
   opacity: 0.9;
 }
+@media screen and (max-width: 500px) {
+  .form-control,
+  textarea {
+    max-width: 370px;
+    margin-left: -15px;
+  }
+  .direct-contact-container {
+    margin-left: -5px;
+  }
+  .social {
+    margin-left: 25px;
+  }
+}
