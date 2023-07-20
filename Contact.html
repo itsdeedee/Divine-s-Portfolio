@@ -26,6 +26,144 @@
     <link rel="stylesheet" href="Contact.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="src/Logo.png" width="50"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a
+              class="nav-link active d-flex justify-content-center text-warning-emphasis"
+              aria-current="page"
+              href="About.html"
+              >About Me</a
+            >
+            <a
+              class="nav-link text-warning-emphasis d-flex justify-content-center"
+              href="Works.html"
+              >My Works</a
+            >
+            <a
+              class="nav-link text-warning-emphasis d-flex justify-content-center"
+              href="Contact.html"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <h1 class="section-header">Contact Me</h1>
+    </div>
+    <section id="contact">
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+
+        <form id="contact-form" class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="NAME"
+                name="name"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="EMAIL"
+                name="email"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <textarea
+            class="form-control"
+            rows="10"
+            placeholder="MESSAGE"
+            name="message"
+            required
+          ></textarea>
+
+          <button
+            class="btn btn-primary send-button"
+            id="submit"
+            type="submit"
+            value="SEND"
+          >
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i
+              ><span class="send-text">SEND</span>
+            </div>
+          </button>
+        </form>
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x"
+                ><span class="contact-text place">City, State</span></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"
+                ><span class="contact-text phone"
+                  ><a href="tel:1-212-555-5555" title="Give me a call"
+                    >(212) 555-2368</a
+                  ></span
+                ></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"
+                ><span class="contact-text gmail"
+                  ><a
+                    href="mailto:divine.e.joseph@gmail.com"
+                    title="Send me an email"
+                    >divine.e.joseph@gmail.com</a
+                  ></span
+                ></i
+              >
+            </li>
+          </ul>
+
+          <hr />
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon" ></i><ion-icon name="logo-linkedin"></ion-icon></a></div>
+          </ul>
+          <hr />
+
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        </div>
+      </div>
+    </section>
+
     <script src="index.js" type="text/javascript"></script>
     <script
       type="module"
