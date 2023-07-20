@@ -48,6 +48,7 @@ textarea {
   color: #fff;
   letter-spacing: 1px;
   margin-top: 30px;
+  margin-left: -20px;
 }
 
 .send-button {
@@ -57,12 +58,14 @@ textarea {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   background-color: var(--secondary-color);
+  margin-left: -20px;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
   transition: all 0.2s ease-in-out;
+  background-color: var(--secondary-color);
 }
 
 .send-text {
@@ -74,11 +77,13 @@ textarea {
 
 .alt-send-button:hover {
   transform: translate3d(0px, -29px, 0px);
+  background-color: var(--secondary-color);
 }
 
 /* Begin Right Contact Page */
 .direct-contact-container {
   max-width: 400px;
+  margin-top: 30px;
 }
 
 /* Location, Phone, Email Section */
